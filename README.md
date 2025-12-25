@@ -16,3 +16,7 @@
 - Logger
 - API Versioning
 - TypeScript
+- Drizzle ORM
+- Neon
+- DrizzleKit
+

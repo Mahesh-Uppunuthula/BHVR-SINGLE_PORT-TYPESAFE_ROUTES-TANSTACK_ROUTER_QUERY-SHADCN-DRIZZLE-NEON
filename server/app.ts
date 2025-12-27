@@ -14,6 +14,6 @@ app.use(logger());
 app.route("/", apiRoute);
 
 app.use("/*", serveStatic({ root: "./build/client" }));
-app.get("*", serveStatic({ root: "./build/client/index.html" }));
+app.get("*", serveStatic({ path: "./build/client/index.html" }));
 export default app;
 export type AppType = typeof apiRoute;
